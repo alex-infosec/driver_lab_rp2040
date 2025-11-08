@@ -1,0 +1,216 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:10 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Applications/ArmGNUToolchain/15.3.Rel1/arm-none-eabi/bin/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/Library/TeX/texbin/"
+      - "/opt/anaconda3/bin/"
+      - "/opt/anaconda3/condabin/"
+      - "/Users/a/.local/bin/"
+    searched_directories:
+      - "/Applications/ArmGNUToolchain/15.3.Rel1/arm-none-eabi/bin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/Library/Frameworks/Python.framework/Versions/3.11/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/ArmGNUToolchain/15.3.Rel1/arm-none-eabi/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/anaconda3/bin"
+        - "/opt/anaconda3/condabin"
+        - "/Users/a/.local/bin"
+        - "/Users/a/.local/bin"
+        - "/Users/a/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/a/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
+      - "/Users/a/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "/Users/a/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:25 (pico_find_compiler_with_triples)"
+      - "/Users/a/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
+      - "CMakeLists.txt:10 (project)"
+    mode: "program"
+    variable: "PICO_COMPILER_CC"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-gcc"
+    candidate_directories:
+      - "/usr/local/opt/arm-none-eabi-gcc/bin/bin/"
+      - "/usr/local/opt/arm-none-eabi-gcc/bin/"
+    searched_directories:
+      - "/usr/local/opt/arm-none-eabi-gcc/bin/bin/arm-none-eabi-gcc"
+    found: "/usr/local/opt/arm-none-eabi-gcc/bin/arm-none-eabi-gcc"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/ArmGNUToolchain/15.3.Rel1/arm-none-eabi/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/anaconda3/bin"
+        - "/opt/anaconda3/condabin"
+        - "/Users/a/.local/bin"
+        - "/Users/a/.local/bin"
+        - "/Users/a/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/a/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
+      - "/Users/a/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "/Users/a/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:26 (pico_find_compiler_with_triples)"
+      - "/Users/a/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
+      - "CMakeLists.txt:10 (project)"
+    mode: "program"
+    variable: "PICO_COMPILER_CXX"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-g++"
+    candidate_directories:
+      - "/usr/local/opt/arm-none-eabi-gcc/bin/bin/"
+      - "/usr/local/opt/arm-none-eabi-gcc/bin/"
+    searched_directories:
+      - "/usr/local/opt/arm-none-eabi-gcc/bin/bin/arm-none-eabi-g++"
+    found: "/usr/local/opt/arm-none-eabi-gcc/bin/arm-none-eabi-g++"
+    search_context:
+      ENV{PATH}:
+        - "/Applications/ArmGNUToolchain/15.3.Rel1/arm-none-eabi/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/anaconda3/bin"
+        - "/opt/anaconda3/condabin"
+        - "/Users/a/.local/bin"
+        - "/Users/a/.local/bin"
+        - "/Users/a/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Users/a/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:12 (find_program)"
+      - "/Users/a/pico/pico-sdk/cmake/preload/toolchains/util/find_compiler.cmake:39 (pico_find_compiler)"
+      - "/Users/a/pico/pico-sdk/cmake/preload/toolchains/util/pico_arm_gcc_common.cmake:28 (pico_find_compiler_with_triples)"
+      - "/Users/a/pico/pico-sdk/cmake/preload/toolchains/pico_arm_cortex_m0plus_gcc.cmake:7 (include)"
+      - "/usr/local/share/cmake/Modules/CMakeDetermineSystem.cmake:146 (include)"
+      - "CMakeLists.txt:10 (project)"
+    mode: "program"
+    variable: "PICO_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "arm-none-eabi-objcopy"
+    candidate_directories:
+      - "/usr/local/opt/arm-none-eabi-gcc/bin/bin/"
+      - "/usr/local/opt/arm-none-eabi-gcc/bin/"
+    searched_directories:
+      - "/usr/local/opt/arm-none-eabi-gcc/bin/bin/arm-none-eabi-objcopy"
+      - "/usr/local/opt/arm-none-eabi-gcc/bin/arm-none-eabi-objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Applications/ArmGNUToolchain/15.3.Rel1/arm-none-eabi/bin"
+        - "/usr/local/bin"
+        - "/usr/local/sbin"
+        - "/Library/Frameworks/Python.framework/Versions/3.11/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/Library/Apple/usr/bin"
+        - "/Library/TeX/texbin"
+        - "/opt/anaconda3/bin"
+        - "/opt/anaconda3/condabin"
+        - "/Users/a/.local/bin"
+        - "/Users/a/.local/bin"
+        - "/Users/a/.local/bin"
+...
