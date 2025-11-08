@@ -3,7 +3,6 @@
 **Date:** October 26, 2025  
  
 
- (:
 
 ## **1. Overview**
 This project implements two hardware drivers for the Feather RP2040 board:
